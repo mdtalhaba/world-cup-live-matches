@@ -1,3 +1,189 @@
-h1 {
-    color: red;
+/* ----------------
+    Common Styles
+----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -----------------
+    Header styles
+------------------ */
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header-container {
+    background-color: rgb(2, 2, 22);
+    border-radius: 30px;
+    width: 85%;
+
+}
+
+.headers {
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+    height: 646px;
+
+}
+
+.header-content {
+    color: white;
+    margin-right: 200px;
+}
+
+.header-content h1 {
+    font-size: 80px;
+
+}
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-content pre {
+    margin-top: 40px;
+}
+
+.headers img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header-image {
+    width: 600px;
+}
+
+.Watch-Live-icon {
+    padding-left: 20px;
+}
+
+/* ----------------
+    blegs style
+---------------- */
+.article-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.side-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: space-evenly;
+    width: 312px;
+    height: 312px;
+    background-color: rgb(2, 2, 22);
+    border-radius: 15px;
+
+}
+
+.nav-anchor {
+    text-align: center;
+    width: 252px;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 7px;
+
+}
+
+.nav-anchor:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.nav-anchor a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.blog {
+    width: 300px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 15px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog-info {
+    padding: 15px;
+}
+
+.blog-info a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.blog-info p {
+    font-weight: 700;
+}
+
+.blog-icon {
+    display: flex;
+}
+
+.blog-icon p {
+    padding-right: 50px;
+}
+
+/* -------------------
+    Footer Styles
+-------------------- */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 400px;
+}
+
+.footer-main {
+    width: 85%;
+    text-align: center;
+}
+
+.footer-main h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.footer-main hr {
+    margin: 50px 0;
+}
+
+.footer-main div a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
 }
