@@ -127,6 +127,7 @@ header {
     width: 300px;
     border: 1px solid rgb(203, 203, 203);
     border-radius: 15px;
+    width: auto;
 }
 
 .blog img {
@@ -166,6 +167,7 @@ header {
     align-items: center;
     background-color: black;
     height: 400px;
+    margin-top: 100px;
 }
 
 .footer-main {
@@ -186,4 +188,167 @@ header {
     text-decoration: none;
     color: white;
     margin: 0 20px;
+}
+
+/* -------------------
+      Media Query
+-------------------- */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+
+    /* Header Styles */
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .header-container {
+        background-color: rgb(2, 2, 22);
+        border-radius: 30px;
+        width: 85%;
+
+    }
+
+    .headers {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        align-items: center;
+        height: 1450px;
+
+    }
+
+    .header-content {
+        color: white;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .headers img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-image {
+        width: 400px;
+    }
+
+    /* Main Styles */
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .blog {
+        width: auto;
+    }
+
+    /* Footer Styles */
+    .footer-section {
+        height: 500px;
+    }
+
+    .footer-anchors {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-anchor {
+        display: block;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
+
+
+/* Tablat Devices */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* Header Styles */
+    header {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .header-container {
+        background-color: rgb(2, 2, 22);
+        border-radius: 30px;
+        width: 85%;
+
+    }
+
+    .headers {
+        display: flex;
+        margin: 0 40px;
+        align-items: center;
+        height: 646px;
+
+    }
+
+    .header-content {
+        color: white;
+        margin-right: 0px;
+    }
+
+    .header-content h1 {
+        font-size: 60px;
+    }
+
+    .headers img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-image {
+        width: 800px;
+    }
+
+    /* Main Styles */
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        height: auto;
+        background: none;
+    }
+
+    .nav-anchor {
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 7px;
+        margin: 0 10px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+    .blog {
+        width: auto;
+    }
+
+    /* Footer Styles */
+
+    .footer-anchor {
+        font-size: 10px;
+    }
 }
