@@ -70,7 +70,7 @@ header {
 }
 
 /* ----------------
-    blogs style
+    blegs style
 ---------------- */
 .article-1 {
     display: flex;
@@ -157,27 +157,6 @@ header {
 
 .blog-icon p {
     padding-right: 50px;
-}
-
-.view-all {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-.view-all div {
-    background-color: brown;
-    padding: 10px 20px;
-    border-radius: 7px;
-}
-
-.view-all div a {
-    text-decoration: none;
-    color: white;
-}
-
-.view-all div:hover {
-    background-color: tomato;
 }
 
 /* -------------------
@@ -299,10 +278,6 @@ header {
         width: auto;
     }
 
-    .view-all {
-        visibility: hidden;
-    }
-
     /* Footer Styles */
     .footer-section {
         height: 500px;
@@ -400,13 +375,5 @@ header {
 
     .footer-anchor {
         font-size: 10px;
-    }
-}
-
-/* PC and Others */
-@media only screen and (min-width:993px) {
-
-    .view-all {
-        visibility: hidden;
     }
 }
