@@ -70,7 +70,7 @@ header {
 }
 
 /* ----------------
-    blegs style
+    blogs style
 ---------------- */
 .article-1 {
     display: flex;
@@ -129,35 +129,29 @@ header {
     border: 1px solid rgb(203, 203, 203);
     border-radius: 15px;
     width: auto;
+    background-color: rgba(190, 190, 190, 0.249);
 }
+
+.flag-bra-vs-sur {
+    display: flex;
+    margin: 30px 10px 0 10px;
+
+}
+
+.flag-image {
+    margin: 0 10px;
+}
+
 
 .blog img {
     width: 100%;
 }
 
 .blog-info {
+    text-align: center;
     padding: 15px;
 }
 
-.blog-info a {
-    color: black;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 5px 20px;
-    border-radius: 5px;
-}
-
-.blog-info p {
-    font-weight: 700;
-}
-
-.blog-icon {
-    display: flex;
-}
-
-.blog-icon p {
-    padding-right: 50px;
-}
 
 /* -------------------
     Footer Styles
